@@ -1,0 +1,19 @@
+Hello, Below is the Log of changes made to Kessler with the first version being here at the top and the newest versions appearing at the bottom creating 
+a nice linear scrolling through the different iterations of my Final Major Project.
+
+
+0.0.1 
+
+  This version set up the basic unity project, as well as importing all of the nessercery LFS support systems for GitHub and .gitattributes as well as 
+  moving over my unity project folder into version control using GitHub/GitKracken, furthermore due to issues setting up version control before starting 
+  unity development, this version also implemented a main menu that navigates to the start of the game which at this current time just reads "This is a game"
+  for testing purposes as well as the basics for an options screen that's still in development.  
+
+  ### - Added 
+  
+  - Added LFS to GitKracken using Git 
+  - Added .gitattributes file to GitKracken 
+  - Added Basic Unity Project 
+  - Added Main menu 
+  - Added Options menu     
+ 
