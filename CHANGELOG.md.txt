@@ -2,7 +2,7 @@ Hello, Below is the Log of changes made to Kessler with the first version being 
 a nice linear scrolling through the different iterations of my Final Major Project.
 
 
-0.0.1 
+0.0.1 (3/3/23)
 
   This version set up the basic unity project, as well as importing all of the nessercery LFS support systems for GitHub and .gitattributes as well as 
   moving over my unity project folder into version control using GitHub/GitKracken, furthermore due to issues setting up version control before starting 
@@ -14,6 +14,26 @@ a nice linear scrolling through the different iterations of my Final Major Proje
   - Added LFS to GitKracken using Git 
   - Added .gitattributes file to GitKracken 
   - Added Basic Unity Project 
-  - Added Main menu 
+  - Added the Main menu 
   - Added Options menu     
+
+0.0.2 (3/3/23)
+ 
+ This version set up a script to make the volume slider on the options menu added in the previous version work, by changing the volume mixer for the games 
+ master volume to the value indicated on the slider by the player, furthermore this version added a graphics dropdown menu in the options page which was coded 
+ and allows the player to change the built-in unity quality/graphics settings to a better graphical setting of their choice between Low and Ultra, hopefully, 
+ this should make the game run smoother on low-end devices. 
+
+ ### - Added
+
+ - Added Code and settings to allow the volume slider to work as intended 
+ - Added Code and settings to allow the Player to change the graphics quality of the game 
+ - Added Quality text layer on UI Canvas 
+ - Added Dropdown menu to Control game quality on UI Canvas  
+
+ ### - Changes 
+
+ - Updated CHANGELOG.md To include a new entry 
+ - Changed UI layering back to Main_Menu first for testing purposes   
+
  
