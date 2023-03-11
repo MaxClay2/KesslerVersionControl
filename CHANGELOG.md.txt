@@ -4,7 +4,7 @@ a nice linear scrolling through the different iterations of my Final Major Proje
 
 V0.0.1 (3/3/23)
 
-  This version set up the basic unity project, as well as importing all of the nessercery LFS support systems for GitHub and .gitattributes as well as 
+  This version set up the basic unity project, as well as importing all of the nessercerynseamlessly LFS support systems for GitHub and .gitattributes as well as 
   moving over my unity project folder into version control using GitHub/GitKracken, furthermore due to issues setting up version control before starting 
   unity development, this version also implemented a main menu that navigates to the start of the game which at this current time just reads "This is a game"
   for testing purposes as well as the basics for an options screen that's still in development.  
@@ -70,6 +70,18 @@ V0.0.4 (10/03/23)
 
  ### - Changes
 
- - Fixed UI Canvas camera scaling issue when built by changing the Canvas to scale with screen size     
+ - Fixed UI Canvas camera scaling issue when built by changing the Canvas to scale with screen size  
+
+V0.0.5 (10/03/23)
+
+ This version Of Kessler added the first draft of my main menu music titled kessler_menu_theme created by my music student composer Robin Clark to the project 
+ and added it to a timeline connected to the UI canvas of the main menu and made it fade in and out for two seconds to create a smooth loop effect.
+
+ ### - Added
+
+ - Imported kessler_menu_theme into the project 
+ - created a timeline for the main menu UI canvas and added a music file to it 
+ - Created f and fade out effects to allow the music to loop ade-i 
+    
 
  
