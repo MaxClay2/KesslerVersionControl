@@ -39,7 +39,7 @@ V0.0.2 (3/3/23)
 V0.0.3 (3/3/23)
 
  This version of Kessler added a fullscreen toggle button to the options menu in the main menu scene created in previous versions, this was tested by creating 
- a build of the game in order to test if the toggle worked as intended which it did however, upon testing this element I discovered that the camera did not 
+ a build of the game to test if the toggle worked as intended which it did however, upon testing this element I discovered that the camera did not 
  show the entire UI Canvas, this is not a massive issue as of yet but will need to be fixed in later versions. originally I thought this was a sizing of the 
  camera issue, changed the size of the camera and that didn't work, then I looked online and one page said I needed to change the UI canvas' render mode to 
  "screen space - camera" and then drag the camera into that however when I built it that didn't work either.
@@ -54,6 +54,22 @@ V0.0.3 (3/3/23)
 
  - Changed UI Canvas render mode to "Screen Space - Camera"
  - Attached Camera to "Screen Space - Camera" 
- - Updated CHANGELOG.md to include new entry    
+ - Updated CHANGELOG.md to include a new entry  
+
+V0.0.4 (10/03/23)
+
+ This Version of Kessler fixed the issue found with the camera in the previous version where the UI canvas did not fit within the camera when the game was built
+ to test the fullscreen toggle, this was fixed by simply changing the properties of the UI Canvas so that it scales with the screen size. Furthermore, in this 
+ version, I added the second scene to the project which is an Introduction scene that explains a little bit of the worlds backstory and a bit about the main
+ character Donald to nicely lead into the first level of the game 
+
+ ### - Added
+
+ - Added Intro Cutscene using Unity Timeline 
+ - Added sound effect files for distant explosions and police sirens for use in Intro Cutscene
+
+ ### - Changes
+
+ - Fixed UI Canvas camera scaling issue when built by changing the Canvas to scale with screen size     
 
  
