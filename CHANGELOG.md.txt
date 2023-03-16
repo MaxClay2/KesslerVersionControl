@@ -81,7 +81,23 @@ V0.0.5 (10/03/23)
 
  - Imported kessler_menu_theme into the project 
  - created a timeline for the main menu UI canvas and added a music file to it 
- - Created f and fade out effects to allow the music to loop ade-i 
+ - Created fade-in and fade-out effects to allow the music to loop accurately 
+
+v0.0.6 (16/03/23)
+
+  This version of Kessler added tile map assets that I created in photoshop and used to create the foreground for the first level of the game (underground 
+  Bunker Tutorial), I added the image files into unity into their own separate folder in order to stay organized and then I had an issue with the sizing of the
+  tiles in relation to the grid, however, I quickly discovered how to fix this by changing each image file within unity to be set to 64 pixels per unit since each
+  the tile was made at a size of 64 by 64 pixels. 
+
+ ### - Added 
+
+  - Imported SunnyLand Placeholder asset pack from unity asset store (unused at this time)
+  - Added Tilemap to "Bunker_lvl1"
+  - Added Bunker foreground tile assets 
+  - Created Tile Palette called "Foreground_Bunker"
+  - Added assets into Pallette 
+  - Created Map for Bunker level using bunker foreground assets   
     
 
  
