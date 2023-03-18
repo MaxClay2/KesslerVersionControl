@@ -124,6 +124,29 @@ v0.1.0 (17/03/23)
 ### - Changes 
 
  - Made the Camera in Bunker_Lvl1 a child of the character so the camera follows the players movement 
+
+v0.1.1 (18/03/23)
+
+ This Version of the game Added a few changes most notabley the ability to use the ladders inside the bunker to add some playability to the version of the game showcased
+ at the Science Fair event later today as well as this in this version i aslo added run, jump and idle animations to the placeholder player character.
+
+ ### - Added 
+
+ - Added Ladder Movement Script 
+ - Added 3 x Box Colliders to Ladder tilemap 
+ - Sized each box collider for the ladders to be the right size for their respective ladder
+ - Created Proto_idle animation 
+ - Created Proto_run animation 
+ - Created Proto_jump animation 
+ - Created transitions between animations 
+
+ ### - Changes 
+
+ - Changed the ladders to be on seperate tilemap so they didnt have a colider that made them solid 
+ - Changed/updated Character controller script to support Ladder Movement and animations 
+ - Changed/updated Player Movement script to support Ladder Movement and animations    
+
+
     
 
  
