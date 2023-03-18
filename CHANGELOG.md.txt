@@ -98,6 +98,32 @@ v0.0.6 (16/03/23)
   - Created Tile Palette called "Foreground_Bunker"
   - Added assets into Pallette 
   - Created Map for Bunker level using bunker foreground assets   
+
+v0.1.0 (17/03/23)
+
+ This version introduced a lot of changes hence why the version is now 0.1.0 since in this version is now version 0.1.0  becuase amoung other chnages to the scene for
+ the first level i also managed toi import a player charcter and get them moving using acharcter controller script now providing a form of gameplay for players at the    18/03/23 science fair playtest event
+ 
+ ### - Added 
+
+ - Added Background Image 
+ - Added Bunker Door Tiles to tile map
+ - Added Ladder Titles to tile map 
+ - Added Timeline music (music from sunnyland asset pack)
+ - Added faint astroid explosion sounds 
+ - Added placeholder charcter sprite sheet 
+ - seperated sprite sheet into seperate sprites 
+ - Added Tilemap 2D collider 
+ - Added ridgidbody 2D to tilemap 
+ - Added Composite colider 2D to tilemap 
+ - Imported Character controller script from Brackeys (youtubers) Github 
+ - Added Circle and box coliders to player 
+ - Added Ground and Ceailing check to player 
+ - Added PlayerMove Script 
+
+### - Changes 
+
+ - Made the Camera in Bunker_Lvl1 a child of the character so the camera follows the players movement 
     
 
  
