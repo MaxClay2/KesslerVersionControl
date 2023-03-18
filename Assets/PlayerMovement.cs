@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     //creates a controller varaible which i added the charcater controller too so the script can be refrenced by 
     //writing controller 
     public CharacterController2D controller;
+    public Animator animator;
 
     float horizontalMove = 0f;
 
@@ -21,12 +22,22 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove)); 
+
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+            animator.SetBool("IsJumping", true);
         }
        
     }
+
+    public void OnLanding ()
+    {
+        animator.SetBool("IsJumping", false);
+    }
+
+
 
     void FixedUpdate ()
     {
